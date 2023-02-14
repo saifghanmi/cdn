@@ -9,7 +9,7 @@ document.head.appendChild(cssFile);
   const urlParams = new URLSearchParams(window.location.search);
   const darkmode54 = urlParams.get('darkmode54');
 
-  if (darkmode54 === 'true') {
+  if (darkmode54 === '1') {
     // enable your code here
     
     console.log("hello")
