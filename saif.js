@@ -3,4 +3,22 @@ cssFile.rel = 'stylesheet';
 cssFile.href = 'file.css';
 document.head.appendChild(cssFile);
 
-console.log("hello")
+
+
+
+  const urlParams = new URLSearchParams(window.location.search);
+  const darkmode54 = urlParams.get('darkmode54');
+
+  if (darkmode54 === 'true') {
+    // enable your code here
+    
+    console.log("hello")
+
+    
+  } else {
+    // disable your code here
+    
+    console.log("7obbi")
+
+    
+  }
